@@ -37,6 +37,8 @@ Devices managed by Intune can be administered remotely using [TeamViewer](https:
 
     - **Update Remote Assistance**: Allows administrators to modify the TeamViewer connector settings
     - **Request Remote Assistance**: Allows administrators to start a new remote assistance session for any user. Users with this role are not limited by any Intune role within a scope. Also, user or device groups assigned an Intune role within a scope can also request remote assistance. 
+    
+- An intune product license needs to be assigned to the Intune administrative account that will be used to create the TeamViewer connector.
 
 - A [TeamViewer](https://www.teamviewer.com) account with the sign-in credentials
 
