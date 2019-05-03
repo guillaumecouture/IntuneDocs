@@ -45,6 +45,8 @@ You must download an external tool to pre-process your *.pkg* files before you c
 > [!IMPORTANT]
 > Only *.pkg* files may be used to upload macOS LOB apps to Microsoft Intune. Conversion of other formats, such as *.dmg* to *.pkg* is not supported.
 
+Deploying LOB apps will only work with pkg-info install-location="/Applications".  If the 3rd party package has an aforementionned setting of install-location="/", deployment through Intune will fail.  
+
 1. Download and run the [Intune App Wrapping Tool for Mac](https://github.com/msintuneappsdk/intune-app-wrapping-tool-mac).
 
     > [!NOTE]
